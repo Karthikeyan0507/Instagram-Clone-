@@ -1,0 +1,193 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/img1.jpg"
+      },
+      "image": "src/assets/pht1.jpeg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 0,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2026-09-09T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/img2.jpg"
+      },
+      "image": "src/assets/pht2.jpg",
+      "caption": "Mountains are calling 🏔️",
+      "likes": 0,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Amazing view!"
+        }
+      ],
+      "timestamp": "2026-09-09T16:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/img3.jpg"
+      },
+      "image": "src/assets/pht3.jpg",
+      "caption": "Good food, good mood 🍝",
+      "likes": 0,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Looks delicious 😍"
+        }
+      ],
+      "timestamp": "2026-09-09T18:15:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "coder_karthi",
+        "profile_pic": "src/assets/img4.jpg"
+      },
+      "image": "src/assets/pht4.jpg",
+      "caption": "Code. Learn. Repeat. 💻",
+      "likes": 0,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Keep coding 🔥"
+        }
+      ],
+      "timestamp": "2026-09-10T08:30:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "travel_diaries",
+        "profile_pic": "src/assets/img5.jpg"
+      },
+      "image": "src/assets/pht5.jpg",
+      "caption": "Exploring the world 🌍",
+      "likes": 0,
+      "comments": [
+        {
+          "user": "mark_92",
+          "comment": "Beautiful place ❤️"
+        }
+      ],
+      "timestamp": "2026-09-10T10:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 111,
+    "username": "itz_me_Groot",
+    "profile_pic": "src/assets/img4.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "106",
+      "username": "IShowspeed",
+      "profile_pic": "src/assets/img1.jpg"
+    },
+    {
+      "id": "107",
+      "username": "Mr_Beast",
+      "profile_pic": "src/assets/img2.jpg"
+    },
+    {
+      "id": "108",
+      "username": "Fat_Boy_Jamal",
+      "profile_pic": "src/assets/img3.jpg"
+    },
+    {
+      "id": "109",
+      "username": "Kai_Cenet",
+      "profile_pic": "src/assets/img4.jpg"
+    },
+    {
+      "id": "110",
+      "username": "MS_Dhoni",
+      "profile_pic": "src/assets/img5.jpg"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/img1.jpg"
+      },
+      "image": "/src/assets/st1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/img2.jpg"
+      },
+      "image": "/src/assets/st2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/img3.jpg"
+      },
+      "image": "/src/assets/st3.jpg"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "coder_karthi",
+        "profile_pic": "src/assets/img4.jpg"
+      },
+      "image": "/src/assets/st4.jpg"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "travel_diaries",
+        "profile_pic": "src/assets/img5.jpg"
+      },
+      "image": "/src/assets/st5.jpg"
+    }
+  ],
+  "followes": [
+    {
+      "id": "105",
+      "username": "travel_diaries",
+      "profile_pic": "src/assets/img5.jpg"
+    },
+    {
+      "id": "rc6y-B5BxSM",
+      "username": "MS_Dhoni"
+    },
+    {
+      "id": "v769keRd2Ok",
+      "username": "Fat_Boy_Jamal"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

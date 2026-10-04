@@ -1,0 +1,41 @@
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.logo-text{
+    width: 150px;
+}
+.story{
+    height: 83px;
+}
+.dp{
+    height: 20px;
+    
+}
+.post {
+    width: 450px;
+}
+
+.gradient-border {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+}
+
+.story-dp {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+}
+.pr-3{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
